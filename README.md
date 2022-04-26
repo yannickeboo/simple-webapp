@@ -15,19 +15,19 @@ This is used in the demonstration of development of Ansible Playbooks.
   
   Python and its dependencies
 
-    apt-get install -y python python-setuptools python-dev build-essential python-pip python-mysqldb
+    yum install -y python python-setuptools python-dev build-essential python-pip python-mysqldb
 
    
 ## 2. Install and Configure Database
     
  Install MySQL database
     
-    apt-get install -y mysql-server mysql-client
+    yum install -y mysql-server mysql-client
 
 ## 3. Start Database Service
   - Start the database service
     
-        service mysql start
+        systemctl start mysql
 
   - Create database and database users
         
