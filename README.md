@@ -47,8 +47,12 @@ This is used in the demonstration of development of Ansible Playbooks.
 
 Install Python Flask dependency
 
+
+    sudo yum install epel-release
+    sudo yum install python-pip
     pip install flask
     pip install flask-mysql
+    pip install --upgrade pip
 
 - Copy app.py or download it from source repository
 ```
