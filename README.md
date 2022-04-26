@@ -41,6 +41,7 @@ This is used in the demonstration of development of Ansible Playbooks.
   - Insert some test data
         
         mysql> INSERT INTO employees VALUES ('JOHN');
+        exit
     
 ## 4. Install and Configure Web Server
 
