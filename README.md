@@ -50,6 +50,9 @@ Install Python Flask dependency
     pip install flask-mysql
 
 - Copy app.py or download it from source repository
+```
+yum install git -y
+git clone https://github.com/yannickeboo/simple-webapp.git
 - Configure database credentials and parameters 
 
 ## 5. Start Web Server
