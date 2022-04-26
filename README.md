@@ -57,7 +57,10 @@ Install Python Flask dependency
 - Copy app.py or download it from source repository
 ```
 yum install git -y
+
 git clone https://github.com/yannickeboo/simple-webapp.git
+
+cd /simple-webapp
 - Configure database credentials and parameters 
 
 ## 5. Start Web Server
